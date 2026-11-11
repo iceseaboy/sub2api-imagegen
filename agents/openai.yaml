@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sub2API 图片生成"
+  short_description: "仅在检测到第三方 provider 时生成或编辑图片，官方 OpenAI 模式跳过"
+  default_prompt: "使用 $sub2api-imagegen 检查当前 provider；仅在第三方 provider 下生成图片并保存到当前项目。"
